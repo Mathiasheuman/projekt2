@@ -4,3 +4,9 @@ I denna mapp lägger du filer som du använder i projektet men som inte syns på
 - Bilder i storformat
 
 Här ligger även filen planering.html, där du skriver planeringen till projektet.
+
+
+
+
+
+
