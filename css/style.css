@@ -5,14 +5,14 @@
     }
     
     
-    nav {
+    header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center; 
     align-items: center;
     height: 10vh;
     background-color: orange;
     font-family: sans-serif;
-    
+    border: solid black 4px;
     }
     
     .navLinks {
@@ -20,20 +20,15 @@
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
-    right: 0px;
-    height: 90vh;
-    top: -90vh;
+    left: 0%;
+    height: 90%;
+    top: -90%;
     background-color: orange;
     align-items: center;
     width: 20%;
     transition: all 1s;
     
     }
-    
-    
-    
-    
-    
     
     .navLinks li {
       list-style: none;
@@ -44,9 +39,9 @@
     
       text-decoration: none;
       color: black;
-      letter-spacing: 3px;
+      letter-spacing: 1%;
       font-weight: bold;
-    font-size: 20px;
+    font-size: 100%;
     }
     
     .burger div {
@@ -79,7 +74,36 @@
     
     
     .burger {
+        position: absolute;
+        left: 10px;
+        top:10px;
       margin-right: 50px;
       cursor:pointer;
     }
     
+
+
+
+
+
+
+
+
+#container {
+display:grid;
+grid-template-areas: 
+'hd hd hd hd'
+
+}
+
+
+header {
+
+    grid-area: hd;
+    
+}
+
+.titel {
+text-align: center;
+    
+}
