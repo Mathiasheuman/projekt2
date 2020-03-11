@@ -4,16 +4,7 @@
     box-sizing: border-box;
     }
     
-    
-    header {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    height: 10vh;
-    background-color: orange;
-    font-family: sans-serif;
-    border: solid black 4px;
-    }
+   
     
     .navLinks {
     display: flex;
@@ -93,6 +84,7 @@
 display:grid;
 grid-template-areas: 
 'hd hd hd hd'
+'mn mn mn mn'
 
 }
 
@@ -100,6 +92,35 @@ grid-template-areas:
 header {
 
     grid-area: hd;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 10vh;
+    background-color: orange;
+    font-family: sans-serif;
+    border: solid black 4px;
+    
+}
+
+main {
+    grid-area: mn;
+    height: 90vh;
+    text-align: center;
+    font-size: 100%;
+    background-image: url('../img/gameblur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: orange;
+    border: solid black 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    display:flex;
+    width: 300px;
+    height: 100px; 
     
 }
 
@@ -115,14 +136,16 @@ text-align: center;
     top: 5px;
     left: 50px;
 }
-#img2 {
- width: 100%;
- height: 100vh;
-    border: solid black 4px;
 
-}
+    
+
 
 h1 {
 
     position: absolute;
 }
+
+@media only screen and (max-width: 600px) {
+  
+
+    }
