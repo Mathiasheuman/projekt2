@@ -145,10 +145,32 @@ h1 {
     position: absolute;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)
+{
+  
+  }
+
+ 
   
 
-    }
-    .imgh { width: auto;
-       height:40%;
+    
+    .imgh {
+       width:auto;
+       height: 155px;
+
        }
+
+       .imgsc {
+        width:30vw;
+        height: auto;
+ 
+        }
+
+        .twi{
+          width: 20vw;
+          height: auto;
+        }
+
+
+
+
